@@ -1,0 +1,71 @@
+.container {
+  max-height: 190px;
+  max-width: 250px;
+  min-height: 190px;
+  min-width: 250px;
+  background-color: white;
+  border: 0.1px solid #dedede;
+  box-shadow: 1px 1px #d3d3d3;
+  position: relative;
+}
+
+.interior-container {
+  max-width: 225px;
+  max-height: 120px;
+  min-width: 225px;
+  min-height: 120px;
+  background-color: #d5d5d5;
+  vertical-align: center;
+  position: relative;
+  bottom: -10px;
+  margin: 0 auto;
+}
+
+textarea {
+  background-color: #d5d5d5;
+  max-width: 225px;
+  max-height: 120px;
+  min-width: 225px;
+  min-height: 120px;
+  border: none;
+  resize: none;
+  overflow-y: scroll;
+}
+
+.save {
+  color: blue;
+  position: relative;
+  margin: 0 auto;
+  bottom: -35px;
+  left: 20px;
+}
+
+.save-btn {
+  background-color: #dedede;
+  opacity: 1;
+  border: none;
+  min-width: 50px;
+  min-height: 20px;
+  box-shadow: 1px 1px #d5d5d5;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.cancel-btn {
+  background-color: #dedede;
+  opacity: 1;
+  border: none;
+  min-width: 50px;
+  min-height: 20px;
+  box-shadow: 1px 1px #d5d5d5;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.cancel {
+  color: red;
+  position: relative;
+  margin: 0 auto;
+  bottom: -35px;
+  left: 50px;
+}
